@@ -94,15 +94,15 @@ section h2 {
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link:hover {
-  color: #80C8EE !important;
+  color: #57bae4 !important;
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link:active, #mainNav .navbar-nav li.nav-item a.nav-link:focus {
-  color: #80C8EE !important;
+  color: #57bae4 !important;
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link.active {
-  color: #80C8EE !important;
+  color: #57bae4 !important;
 }
 
 #mainNav .navbar-toggler {
@@ -299,7 +299,7 @@ header.masthead h2 {
 }
 
 .floating-label-form-group-with-focus label {
-  color: #80C8EE !important;
+  color: #57bae4 !important;
 }
 
 form .row:first-child .floating-label-form-group {
@@ -318,11 +318,11 @@ form .row:first-child .floating-label-form-group {
 }
 
 a {
-  color: #80C8EE !important;
+  color: #57bae4 !important;
 }
 
 a:focus, a:hover, a:active {
-  color: #80C8EE !important;
+  color: #57bae4 !important;
 }
 
 .btn {
@@ -334,7 +334,7 @@ a:focus, a:hover, a:active {
 }
 
 .bg-secondary {
-  background-color: #80C8EE !important;
+  background-color: #57bae4 !important;
 }
 
 .text-primary {
@@ -342,12 +342,12 @@ a:focus, a:hover, a:active {
 }
 
 .text-secondary {
-  color: #80C8EE !important;
+  color: #57bae4 !important;
 }
 
 .btn-primary {
-  background-color: #80C8EE !important;
-  border-color: #80C8EE !important;
+  background-color: #57bae4 !important;
+  border-color: #57bae4 !important;
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
