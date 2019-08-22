@@ -1,0 +1,154 @@
+/*-------- Global --------*/
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}
+html {
+	font-family: Roboto;
+	font-weight: 300;
+	font-size: 18px;
+}
+body {
+	width: 60%;
+	margin: auto;
+	max-width: 750px;
+	min-width: 450px;
+}
+h1 {
+	font-family: Montserrat;
+	font-size: 40px;
+	font-weight: 700;
+	color: #000000;
+}
+h2 {
+	font-family: Montserrat;
+	font-size: 20px;
+	font-weight: 600;
+	color: #000000;
+}
+h5 {
+	font-size: 20px;
+	margin-top: 10px;
+	color: #17191a;
+}
+p {
+	font-family: Roboto;
+	color: #343434;
+	font-weight: 200;
+	margin-top: 30px;
+	font-size: 18px;
+	line-height: 1.6;
+}
+
+/*-------- Nav --------*/
+.nav {
+	margin-top: 60px;
+	display: flex;
+	align-items: center;
+}
+.link { 
+	color: #343434;
+}
+.link:hover {
+	color: #81c8ee;
+}
+.link2 {
+	color: #81c8ee;
+    text-decoration: none;
+    background-image: linear-gradient(currentColor, currentColor);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size .3s;
+}
+.link2:hover, .link2:focus {
+    background-size: 100% 2px;
+}
+.home a {
+	flex: 1;
+	font-size: 18px;
+	text-decoration: none;
+}
+.shortcuts {
+	flex: 1;
+	font-size: 18px;
+	text-align: right;
+}
+.shortcuts a {
+	margin-left: 25px;
+	text-decoration: none;
+}
+.shortcuts b {
+	text-decoration: none;
+}
+
+
+/*-------- Landing --------*/
+
+.landing {
+	margin-top: 140px;
+	position: relative;
+}
+.landingWrapper {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 100px; 
+}
+
+
+/*-------- Skills --------*/
+
+
+
+
+/*-------- Work 01 --------*/
+.work {
+	width: 100%;
+	position: relative;
+	margin-top: 200px;
+	justify-content: center;
+}
+.inWork {
+	margin-top: 200px;
+	align-items: center;
+}
+.mobileImage {
+	max-width: 100%;
+}
+
+
+/*-------- Work 02 --------*/
+
+
+
+
+/*-------- Work 01 and 02 --------*/
+
+
+
+
+/*-------- Footer --------*/
+.footer {
+	display: flex;
+	margin-top: 100px;
+	justify-content: center;
+	height: 60px;
+	font-size: 14px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
