@@ -1,0 +1,194 @@
+/*-------- Global --------*/
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}
+html {
+	font-family: Roboto;
+	font-weight: 300;
+	font-size: 18px;
+}
+
+.normalWidth {
+	width: 60%;
+	margin: auto;
+	max-width: 750px;
+	min-width: 450px;
+}
+
+h1 {
+	font-family: Montserrat;
+	font-size: 36px;
+	font-weight: 700;
+	color: #000000;
+}
+h2 {
+	font-family: Montserrat;
+	font-size: 20px;
+	font-weight: 700;
+	color: #000000;
+}
+h5 {
+	font-size: 20px;
+	margin-top: 10px;
+	color: #17191a;
+}
+p {
+	font-family: Roboto;
+	color: #343434;
+	font-weight: 200;
+	font-size: 16px;
+	line-height: 1.6;
+}
+
+li {
+	font-family: Roboto;
+	color: #343434;
+	font-weight: 200;
+	font-size: 16px;
+	line-height: 1.4;	
+}
+
+/*-------- Nav --------*/
+.nav {
+	margin-top: 60px;
+	display: flex;
+	align-items: center;
+}
+.link { 
+	color: #343434;
+}
+.link:hover {
+	color: #81c8ee;
+}
+.link2 {
+	color: #81c8ee;
+	text-decoration: none;
+	background-image: linear-gradient(currentColor, currentColor);
+	background-position: 0% 100%;
+	background-repeat: no-repeat;
+	background-size: 0% 2px;
+	transition: background-size .3s;
+}
+.link2:hover, .link2:focus {
+	background-size: 100% 2px;
+}
+.home a {
+	flex: 1;
+	font-size: 18px;
+	text-decoration: none;
+}
+.shortcuts {
+	flex: 1;
+	font-size: 18px;
+	text-align: right;
+}
+.shortcuts a {
+	margin-left: 25px;
+	text-decoration: none;
+}
+.shortcuts b {
+	text-decoration: none;
+}
+
+
+/*-------- Landing --------*/
+
+.landing {
+	margin-top: 160px;
+	position: relative;
+}
+.landingWrapper {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 100px; 
+}
+.picture {
+	margin-top: 20px;
+}
+.headShot {
+	margin-top: 40px;
+	max-width: 100%;
+}
+
+/*-------- Work --------*/
+.firstWork {
+	max-width: 750px;
+	position: relative;
+	margin-top: 150px;
+	justify-content: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.work {
+	max-width: 750px;
+	position: relative;
+	margin-top: 100px;
+	justify-content: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.zoom {
+	transition: transform .6s;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.zoom img{
+	transition: transform .6s;
+	margin: 0 auto;
+}
+
+.zoom:hover {
+	transform: scale(1.025);
+	box-shadow: 0 0 11px rgba(33,33,33,.2); 
+}
+
+.zoom:hover img{
+	transform: scale(1.03);
+}
+
+.card {
+	height: 350px;
+	width: 100%;
+}
+
+.linkText { 
+	color: #343434;
+	text-decoration: none;
+}
+
+.linkText:hover {
+	color: #81c8ee !important;
+}
+
+.big {
+	width: 100%;
+	display: block;
+	margin-top: 80px;
+}
+
+.caseImages {
+	margin-top: 30px;
+	margin-bottom: 60px;
+}
+
+figcaption {
+	margin-top: 4px;
+	font-size: 12px;
+}
+
+/*-------- Footer --------*/
+.footer {
+	display: flex;
+	margin-top: 150px;
+	justify-content: center;
+	height: 60px;
+	font-size: 14px;
+}
