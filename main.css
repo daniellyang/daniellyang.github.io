@@ -116,21 +116,12 @@ li {
 
 /*-------- Work --------*/
 .firstWork {
-	max-width: 750px;
 	position: relative;
 	margin-top: 150px;
-	justify-content: center;
-	margin-left: auto;
-	margin-right: auto;
 }
 
 .work {
-	max-width: 750px;
-	position: relative;
 	margin-top: 100px;
-	justify-content: center;
-	margin-left: auto;
-	margin-right: auto;
 }
 
 .zoom {
@@ -151,11 +142,6 @@ li {
 
 .zoom:hover img{
 	transform: scale(1.03);
-}
-
-.card {
-	height: 350px;
-	width: 100%;
 }
 
 .linkText { 
