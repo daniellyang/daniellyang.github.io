@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Daniell Yang</title>
+	<meta charset="utf-8">
+	<link rel="shortcut icon" href="favicon.ico">
+	<meta name="viewport" content="width=device-width, initial-scale = 1.0">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:200,700" rel="stylesheet" type="text/css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:200,300" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" type="text/css" href="main.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+</head>
+
+<body>
+	<div class ="normalWidth">
+		<!--Nav header-->
+		<div class="animated fadeIn">
+			<div class="nav">
+				<div class="home">
+					<a class="link" href="https://daniellyang.github.io/index.html">Daniell Yang</a>
+				</div>
+				<div class="shortcuts">
+					<a class="link" href="Yang_Daniell_Resume.pdf" target="_blank">Resume</a>
+					<a class="link" href="https://daniellyang.github.io/about.html">About</a>
+				</div>
+			</div>
+		</div>
+
+		<!--Header photo/intro-->
+		<div class="animated fadeInUp slow">
+			<div class="landing">
+				<div class="landingWrapper">
+					<div class="info">
+						<h1>Augmenting the marketing capabilites of small businesses</h1>
+						<p style="margin-top: 8px">Shopify - Winter 2019</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="animated fadeInUp slow">
+		<img src="image picker.jpg" alt="old mobile web view" style='height: 100%; width: 100%; object-fit: cover; margin-top: 80px;'>
+	</div>
+
+	<!--Body text-->
+	<div class="normalWidth">
+		<div class="animated fadeInUp slow">
+			<h3 style="margin-top: 80px">Context</h3>
+			<h2 style="margin-top: 18px">Powering the future of marketing campaigns</h2>
+			<p style="margin-top: 18px">Shopify Marketing helps merchants take their small online businesses to the next level. The marketing section allows anyone with a Shopify store to market their products on a variety of social channels such as Facebook, Instagram, Google Shopping, etc. These third-parties build easy-to-use marketing campaigns composed of components Shopify controls and designs. So, rather than going through the long arduous process of figuring out how to market on those different channels, merchants can simply fill these third-party created forms in their admin.</p>
+
+			<h3 style="margin-top: 60px">Role</h3>
+			<h2 style="margin-top: 18px">Designing around techical constraints</h2>
+			<p style="margin-top: 18px">This was a highly-technical 8-week project where I gained a deep understanding of the UX and tech behind Shopify. As the sole designer on the team, I worked closely with the front-end and back-end developers to understand all the technical requirements and constraints and collaborated with the product manager to gather the needs of the third-party developers. I saw this product through multiple iterations and shipped it to production.</p>
+
+			<h3 style="margin-top: 60px">Problem</h3>
+			<h2 style="margin-top: 18px">Expanding Shopify's marketing offering</h2>
+			<p style="margin-top: 18px">Previously, marketing campaigns revolved solely around a merhcant's products, such as product ads on Facebook and Google. As Shopify's marketing offering was growing, third parties like Snapchat were requesting for more complex components that could help power new marketing campaigns. Many third-parties were asking for the implementation of an image picker component, which would open up a world of new types of campaigns. The image picker would give merchants access to any image they've every uploaded on their admin (product images, slideshow images, blog assets, etc.) and use it in marketing campaigns, allowing merchants go beyond advertising products and build a brand. 
+				<br>
+				<br>So, how do we give merchants the ability to leverage stand-alone images in their marketing campaigns?</p>
+
+			<h3 style="margin-top: 60px">Objective</h3>
+			<h2 style="margin-top: 18px">Creating new revenue streams for us and our merchants</h2>
+			<p style="margin-top: 18px">The technical framework was all in place for this new image picker component, but the design possibilities were endless. Since Shopify powers 600,000+ merchants around the world, I knew that I wanted to design an image picker that was scalable and delievered a good experience whether or not the merchant had 1 image or 1000 images.
+				<br>
+				<br>
+				Our KPIs for this project was the growth of third-party app developers creating marketing campaigns using image pickers and the growth of merchants utilizing these campaigns.
+			</p>
+
+			<h3 style="margin-top: 60px">Initial exploration</h3>
+			<h2 style="margin-top: 18px">Building a scaleable design</h2>
+			<p style="margin-top: 20px">From our audits, we found the current design to be not scaleable; the form had no central organizational system  and new components were just appeneded on. So, as marketing campaigns got more complex, with more features, forms would got longer and more unorganized. To tackle this scalability issue, I tested a new user flow that leveraged the strengths of the mobile medium, such as drill down menus and tap-ins. I proposed a new category organization system inside the form page as well as a new user flow. The inspiration for this flow was drawn from the Products and Discounts section inside the app, both of which were fleshed out flows that were tested and proven.</p>
+
+			<figure class="caseImages">
+				<img src="image picker planning.jpg" alt="image picker planning" style='height: 100%; width: 100%; object-fit: cover'>
+				<center><figcaption>The fruits of our team's whiteboarding session</figcaption></center>
+			</figure>
+
+			<p>Now that I had a consistent user flow, I came up with some initial mockups of the process a merchant might go through in a resource picker component. To maintain the consistency of experience throughout the app, I did a deep dive into <a class="link2" href="https://polaris.shopify.com/" target="_blank">Polaris</a> and other parts of the app to translate the web designs into native mobile designs.</p>
+
+			<h3 style="margin-top: 60px">Iteration</h3>
+			<h2 style="margin-top: 18px">Gathering feedback and iterating upon ideas</h2>
+			<p style="margin-top: 20px">I quickly discovered the trap that many designers fall into of never actualy stress-testing your designs in a real world scenario. Furthermore, I've always valued the importance of getting feedback early. So after doing some rapid-prototyping, I got my design in the hands of other designers to get their critiques and some valuable feedback:
+				<br>
+				<br>
+				<ul>
+					<li>Though it was a more organized and scalable flow, with so many drill down menus, the form became too slow to go through</li>
+					<li>Since pages were 4 levels deep sometimes, it was difficult for merchants to keep track of their progress(ie. how many products they added to their campaign)</li>
+					<li>With all the prompts and screens, it was a great experience for first-time merchants, but power-users wouldn't be able to quickly create campaigns</li>
+				</ul>
+				<br>
+				<br>
+				<p> A lot of the feedback centered around the proposed new flow, people liked the scalability of it, but the time it took for a merchant to get through the process also needed to be shortened. The testing and critique sessions were an invaluable lesson in learning about trade-offs and designing for as many types of users as possible.</p> 
+			</p>
+
+			<h3 style="margin-top: 60px">Accessibility</h3>
+			<h2 style="margin-top: 18px">Creating an interactive product</h2>
+			<p style="margin-top: 18px">After some final feedback and refinement, I came up with this final design and mocked it up in Origami Studio.
+			</p>
+
+			<h3 style="margin-top: 60px">Mobile web</h3>
+			<h2 style="margin-top: 18px">Creating an interactive product</h2>
+			<p style="margin-top: 18px">After some final feedback and refinement, I came up with this final design and mocked it up in Origami Studio.
+			</p>
+
+			<h3 style="margin-top: 60px">Outcome</h3>
+			<h2 style="margin-top: 18px">Reflecting on an amazing experience</h2>
+			<p style="margin-top: 20px">The mobile native marketing section redesign is now in the build phase. Furthermore, since no team within Shopify had touched the mobile design system in a while, I even got to submit the redesign to the design system committee. And so, I was also able to introduce some new patterns within native mobile Polaris. Being my first real product design internship, I learned so much in these 16 weeks. Some key insights I got were:
+			<br>
+				<br>
+				<ul>
+					<li>As cliche as it sounds, feedback truly is a gift. By seeking out those more experienced than me, I was able to constantly refine and incorporate the knowledge of more senior designers into my work.</li>
+					<li>Looping in stakeholders, specifically with the dev side, is extremely important. By talking to my mobile devs early on, I gained a fundamental understanding of the technical constraints of the mobile space before I started designing. This helped me to flesh out ideas that were actually possible for the devs to implement.</li>
+				</ul></p>
+		</div>
+	</div>
+
+	<!--Footer-->
+	<div class ="normalWidth">
+		<div class="animated fadeInUp slow">
+			<div class="footer">
+				<center>Made with 42 shots of esspresso, ❤️, and a lot of &ltdiv&gt tags in 2019</center>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
