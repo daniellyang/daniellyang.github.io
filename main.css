@@ -53,6 +53,10 @@ li {
 	line-height: 1.6;	
 }
 
+ul {
+	margin-left: 18px;
+}
+
 /*-------- Nav --------*/
 .nav {
 	margin-top: 60px;
