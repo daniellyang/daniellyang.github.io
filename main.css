@@ -67,10 +67,10 @@ ul {
 	color: #343434;
 }
 .link:hover {
-	color: #81c8ee;
+	color: #70B8DF;
 }
 .link2 {
-	color: #81c8ee;
+	color: #70B8DF;
 	text-decoration: none;
 	background-image: linear-gradient(currentColor, currentColor);
 	background-position: 0% 100%;
@@ -149,7 +149,7 @@ ul {
 }
 
 .linkText:hover {
-	color: #81c8ee !important;
+	color: #70B8DF !important;
 }
 
 .caseImages {
