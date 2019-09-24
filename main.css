@@ -19,6 +19,12 @@ html {
 	max-width: 850px;
 }
 
+.biggerWidth {
+	width: 90%;
+	margin: auto;
+	max-width: 1275px;
+}
+
 h1 {
 	font-family: Montserrat;
 	font-size: 36px;
