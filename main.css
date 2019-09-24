@@ -22,7 +22,7 @@ html {
 .biggerWidth {
 	width: 90%;
 	margin: auto;
-	max-width: 1000px;
+	max-width: 1080px;
 }
 
 h1 {
@@ -159,6 +159,8 @@ ul {
 	color: #70B8DF !important;
 }
 
+
+/*-------- Cases --------*/
 .caseImages {
 	margin-top: 30px;
 	margin-bottom: 60px;
@@ -167,6 +169,21 @@ ul {
 figcaption {
 	margin-top: 4px;
 	font-size: 12px;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 50%;
+  padding: 5px;
+}
+
+@media screen and (max-width: 500px) {
+  .column {
+    width: 100%;
+  }
 }
 
 /*-------- Footer --------*/
