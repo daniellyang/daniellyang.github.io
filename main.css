@@ -16,13 +16,13 @@ html {
 .normalWidth {
 	width: 90%;
 	margin: auto;
-	max-width: 850px;
+	max-width: 750px;
 }
 
 .biggerWidth {
 	width: 90%;
 	margin: auto;
-	max-width: 1275px;
+	max-width: 1000px;
 }
 
 h1 {
