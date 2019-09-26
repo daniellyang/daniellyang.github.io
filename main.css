@@ -64,6 +64,11 @@ ul {
 	margin-top: 17px;
 }
 
+mark {
+  background-color: #D4F0FF;
+  color: black;
+}
+
 /*-------- Nav --------*/
 .nav {
 	margin-top: 60px;
