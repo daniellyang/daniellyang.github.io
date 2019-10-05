@@ -182,7 +182,6 @@ figcaption {
 
 .column {
   flex: 50%;
-  padding: 5px;
 }
 
 @media screen and (max-width: 500px) {
