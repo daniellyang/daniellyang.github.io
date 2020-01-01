@@ -124,7 +124,7 @@ mark {
 .work {
 	padding: 20px;
 	box-sizing: border-box;
-	flex-basis: 50%
+	flex-basis: 50%;
 }
 
 @media (min-width: 900px) {
