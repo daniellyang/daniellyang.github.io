@@ -1,69 +1,100 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>About - Daniell Yang</title>
+
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-148503662-1"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+
+		gtag('config', 'UA-148503662-1');
+	</script>
+
+	<title>Daniell Yang</title>
 	<meta charset="utf-8">
 	<link rel="shortcut icon" href="favicon.ico">
 	<meta name="viewport" content="width=device-width, initial-scale = 1.0">
-	<link href="https://fonts.googleapis.com/css?family=Montserrat:600,700" rel="stylesheet" type="text/css">
-	<link href="https://fonts.googleapis.com/css?family=Roboto:200,300" rel="stylesheet" type="text/css">
-	<link rel="stylesheet" type="text/css" href="main.css">
+	<link href="https://fonts.googleapis.com/css?family=Spectral:800&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
 </head>
 
 <body>
+	<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+	<script>
+		AOS.init();
+	</script>
+
 	<div class ="normalWidth">
-		<div class="animated fadeIn">
-			<div class="nav">
-				<div class="home">
-					<a class="link" href="https://daniellyang.github.io/index.html">Daniell Yang</a>
-				</div>
-				<div class="shortcuts">
-					<a class="link" href="Yang_Daniell_Resume.pdf" target="_blank">Resume</a>
-					<a class="link" href="https://daniellyang.github.io/about.html">About</a>
-				</div>
+		<!--Nav header-->
+		<div class="nav" data-aos="fade-down" data-aos-duration="1200">
+			<div class="home">
+				<a class="link" href="https://daniellyang.github.io/index.html">
+					<p style="font-weight: bold;">Daniell Yang</p>
+					Product Designer
+				</a>
+			</div>
+			<div class="shortcuts">
+				<a class="link" href="Yang_Daniell_Resume.pdf" target="_blank">Resume</a>
+				<a class="link" href="https://dribbble.com/daniellyang" target="_blank">Art</a>
+				<a class="link" href="https://daniellyang.github.io/about.html">About</a>
 			</div>
 		</div>
 
-		<div class="landing">
-			<div class="landingWrapper">
-				<div class="info">
-					<div class="animated fadeInUp slow">
-						<h1>About <img src="blob boppin.gif" style="height: 45px;width: 45px; margin-left: 5px"> 
-							<img src="blob excited.gif" style="height: 45px;width: 45px; margin-left: 5px">
-							<img src="blob dancin.gif" style="height: 45px;width: 45px; margin-left: 5px"></h1>
-							<h2>(Biggest fan of blob emojis you'll ever meet)</h2>
-						</div>
-						<div class="animated fadeInUp slow" style="margin-top: 30px; margin-bottom: 60px;">
-							<figure>
-								<img src="headshot.jpg" alt="old mobile web view" style='height: 100%; width: 100%; object-fit: cover'>
-								<center><figcaption>I promise I'm friendlier in person</figcaption></center>
-							</figure>
-						</div>
-						<div class="animated fadeInUp slow">
-							<p style="margin-top: 30px;">
-								I’m a multi-disciplinary designer studying Computer Science and Finance at the University of Waterloo. Currently at <a class="link2" href="https://www.shopify.ca/" target="_blank">Shopify</a>, previously <a class="link2" href="https://poundandgrain.com/" target="_blank">Pound&Grain</a>. I'm looking for a Summer 2020 internship at a team dedicated to making a great product and creating a positive impact.
-								<br>
-								<br>
-								I have been a creative for as long as I can remember, but I didn't discover my passion for product design until attending my first hackathon in university. In those Red Bull-fueled 36 hours, teetering on the edge of reality, I witnessed the beauty of product design; to me, it was the perfect blend of design, technology, and business strategy that I had been searching for and I've been hooked ever since. Nothing gets me more excited than tackling big abstract problems that have the potential to impact millions of lives for the better.
-								<br>
-								<br>
-								Outside of work, I'm fostering the student design community through <a class="link2" href="https://www.linkedin.com/company/uw-ux/about/" target="_blank">UW/UX</a>, the University of Waterloo's student-run UX club. I'm also a washed-up competitive badminton player, terrible karaoke singer, and stock market speculator.
-								<br>
-								<br>
-								Interested in working together? Let's connect on <a class="link2" href="https://www.linkedin.com/in/daniellyang/" target="_blank">LinkedIn</a> or email me at <a class="link2" href="mailto:daniell.yang@uwaterloo.ca">daniell.yang@uwaterloo.ca</a>. If you want to see some more of my visual art, you can check out my <a class="link2" href="https://dribbble.com/daniellyang" target="_blank">Dribbble.</a>
-							</p>
-						</div>
-					</div>
-				</div>
-			</div>
+		
+		<div class="landing" data-aos="fade-up" data-aos-duration="1200">
+			<h1>Origin Story.</h1> 
+		</div>
+	</div>
 
-			<!--Footer-->
-			<div class="animated fadeIn">
-				<div class="footer">
-					<center>Designed and coded with a lot of <img src="blob love.png" style="height: 20px;width: 20px; margin-left: 5px; margin-right: 5px"> in 2019</center>
-				</div>
+
+	<!--Content-->
+	<div data-aos="fade-up" data-aos-duration="1200">
+		<div class="work-container">
+			<div class="work">			
+				<p>
+					I discovered my passion for design at my first hackathon. In those Red Bull-fueled 36 hours, teetering on the edge of reality, I witnessed the beauty of product design; to me, it was the perfect blend of art, business strategy and technology that I had been searching for. I've been hooked ever since and have explored problem spaces such as advertising, e-commerce and media.
+					<br>
+					<br>
+					Coming from a background in computer science, finance and fine arts, nothing gets me more excited than creating products that empower people, reduce wealth inequality and generate value for the business—in that specific order.
+					<br>
+					<br>
+					(also picked up an unhealthy obsession with blob emojis
+					<img src="about img/blob dancin.gif" style="max-width: 23.75px; max-height: 23.75px">
+					<img src="about img/blob_aww.png" style="max-width: 23.75px; max-height: 23.75px">
+					<img src="about img/blob love.png" style="max-width: 23.75px; max-height: 23.75px">
+					<img src="about img/blob excited.gif" style="max-width: 23.75px; max-height: 23.75px">
+					<img src="about img/blob_hero.png" style="max-width: 23.75px; max-height: 23.75px">
+					<img src="about img/blob-yes.png" style="max-width: 23.75px; max-height: 23.75px">
+					<img src="about img/blob boppin.gif" style="max-width: 23.75px; max-height: 23.75px">
+					<img src="about img/blobpeek.png" style="max-width: 23.75px; max-height: 23.75px">
+					<img src="about img/blobross.png" style="max-width: 23.75px; max-height: 23.75px">
+					<img src="about img/blobsweatin.gif" style="max-width: 23.75px; max-height: 23.75px">
+					<img src="about img/blobnomcookie.png" style="max-width: 23.75px; max-height: 23.75px">
+					<img src="about img/meow_coffee.png" style="max-width: 23.75px; max-height: 23.75px">
+					<img src="about img/djblob.gif" style="max-width: 23.75px; max-height: 23.75px">
+					<img src="about img/pusheenblob.png" style="max-width: 23.75px; max-height: 23.75px">
+					<img src="about img/rainblob.png" style="max-width: 23.75px; max-height: 23.75px">
+					<img src="about img/blob-angel.gif" style="max-width: 23.75px; max-height: 23.75px">)
+				</p>
+			</div>
+			<div class="work">
+				<img src="about img/headshot2.png" style="height: 426px; float: right;">
 			</div>
 		</div>
-	</body>
-	</html>
+	</div>
+
+
+	<!--Footer-->
+	<div class="footer">
+		<center>
+			<p><br>Want to learn more about me? Say hi at <a class="link2" href="mailto:daniell.yang@uwaterloo.ca">daniell.yang@uwaterloo.ca</a> or connect with me on <a class="link2" href="https://www.linkedin.com/in/daniellyang/" target="_blank">LinkedIn.</a></p>
+		</center>
+	</div>
+	
+</body>
+</html>
