@@ -180,8 +180,8 @@ mark {
 	font-size: 22px;
 	font-weight: bold;
 	text-align: center;
-	margin-left: 90px;
-	margin-right: 90px;
+	margin-left: 20%;
+	margin-right: 20%;
 }
 
 .card:hover .overlay {
