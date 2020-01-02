@@ -213,9 +213,7 @@
 			<p>
 				I broke down the design of FB Audience Building Ads into these "basic components." From there, I researched the scope of each component and tackled each them one by one. Components like text fields already had their mobile native designs in our design system, so translating them into mobile native was straightforward. Thus, I’ll be going into more detail on the more complex components that needed a full rebuild, which were the following:
 				<ul>
-					<li>Product Picker</li>
-					<li>Discount Picker</li>
-					<li>Interests Picker</li>
+					<li>Product, Discount and Interests Picker (Resource Pickers)</li>
 					<li>Date Picker</li>
 					<li>Preview Bar</li>
 				</ul>
@@ -235,74 +233,29 @@
 	<div class="work-container" data-aos="fade-up" data-aos-duration="1200">
 		<div class="text-work-left">			
 			<h3>
-				Product Picker
+				Resource <br>Pickers
 			</h3>
 		</div>
 		<div class="text-work-right">
 			<p>
-				Merchants felt the flow for selecting products for their FB Audience Building Ad was too inconvenient on mobile; the shrunk down web-view was not optimized for the small screen. Our research found that it was a major pain point for our merchants to search and select products. Since the modal would constantly shift and "not work as they expected."
+				Disclaimer: Product, Discount and Interests Pickers shared the same base components and flow. So, I'll be only outlining the design of the product picker, but the same ideas and designs were executed for all 3 pickers.
+				<br>
+				<br>
+				Merchants felt the flow for selecting products, discounts and interests for their FB Audience Building Ad was too inconvenient on mobile; the shrunk down web-view was not optimized for the small screen. Our research found that it was a major pain point for our merchants to search and select resources. Furthermore, resources like interest tags had no maximum; merchants would typically select at 20+ interest tags to build a bigger and broader audience. Thus, another pain point for merchants was forms becoming overwhelming and lengthy.
 			</p>
 
 			<div class="inline-image" style="text-align: center;" data-aos="fade-up" data-aos-duration="1200">
-				<img src="mobilemarketing img/old product picker.png" style="width: 50%;">
-				<center><figcaption>An example of how finnicky using the search was in the product picker</figcaption></center>
+				<img src="mobilemarketing img/old resource pickers.png" style="width: 100%;">
+				<center><figcaption>(Left) shows how the old resource pickers hindered search and selection and (right) shows how a form could become overwhelming and lengthy with interest tags selected</figcaption></center>
 			</div>	
 
 			<p style="margin-top: 60px" data-aos="fade-up" data-aos-duration="1200">
-				Drawing inspiration from Airbnb, I decoupled the tasks to create a more seamless flow for product selection. By moving the task of selecting and searching of products to a secondary page, the picker could leverage the full screen height and allow merchants to actually search AND see their products. Furthermore, the selected products were shifted to a secondary sreen to not overwhelm and extend the length of an already long form.
+				Drawing inspiration from Airbnb, I decoupled the tasks to create a more seamless flow for resource selection. By moving the task of selecting and searching of resources to a secondary page, the picker could leverage the full screen height and allow merchants to actually search AND see their resources. Furthermore, the selected resources were shifted to a secondary sreen to not overwhelm and extend the length of an already long form.
 			</p>
 
 			<div class="inline-image" style="text-align: center;" data-aos="fade-up" data-aos-duration="1200">
 				<img src="mobilemarketing img/product picker.gif" style="width: 50%;">
-				<center><figcaption>The new decoupled product picking flow</figcaption></center>
-			</div>
-		</div>
-	</div>
-</div>
-
-<div class="text-block">
-	<div class="work-container" data-aos="fade-up" data-aos-duration="1200">
-		<div class="text-work-left">			
-			<h3>
-				Discount Picker
-			</h3>
-		</div>
-		<div class="text-work-right">
-			<p>
-				The discount picker faced the same issues as the product picker, so the same approach was taken to decouple the tasks to create a more seamless flow for discount selection. Once again, moving the task of selection to another screen allowed the picker to leverage the full screen height and gave merchants better visibility when searching for discounts.
-			</p>
-			<div class="inline-image" style="text-align: center;" data-aos="fade-up" data-aos-duration="1200">
-				<img src="mobilemarketing img/discount picker.gif" style="width: 50%;">
-				<center><figcaption>The new decoupled discount picking flow</figcaption></center>
-			</div>
-		</div>
-	</div>
-</div>
-
-<div class="text-block">
-	<div class="work-container" data-aos="fade-up" data-aos-duration="1200">
-		<div class="text-work-left">			
-			<h3>
-				Interests Picker
-			</h3>
-		</div>
-		<div class="text-work-right">
-			<p>
-				The old interests picker suffered from the same issues that the product and discount pickers faced; the web-view on mobile made it difficult to search and select. Furthermore, there was no cap on the number of interest tags a merchant could select; merchants would typically select at 20+ interest tags to build a bigger and broader audience. Thus, forms becoming overwhelming and lengthy was another pain point that our merchants faced.
-			</p>
-
-			<div class="inline-image" style="text-align: center;" data-aos="fade-up" data-aos-duration="1200">
-				<img src="mobilemarketing img/old interest picker.png" style="width: 50%;">
-				<center><figcaption>An example of how long the form would get with multiple interests selected</figcaption></center>
-			</div>	
-			
-			<p style="margin-top: 60px" data-aos="fade-up" data-aos-duration="1200">
-				Decoupling the interests selection and display to another screen addressed both pain points that merchants were facing; it was now an easier process to search, select and view tags and tags no longer crowded and uneccessarily increased the length of the main form page.
-			</p>
-
-			<div class="inline-image" style="text-align: center;" style="background-image:" data-aos="fade-up" data-aos-duration="1200">
-				<img class="top" src="mobilemarketing img/interest picker.gif" style="width: 50%;">
-				<center><figcaption>The new decoupled interests picking flow</figcaption></center>
+				<center><figcaption>The new resource pickers with their decoupled flow (Product Picker seen here)</figcaption></center>
 			</div>
 		</div>
 	</div>
