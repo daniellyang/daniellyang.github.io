@@ -250,9 +250,3 @@ mark {
 		justify-content: space-between;
 	}
 }
-
-@media (max-width: 500px) {
-	.work-container2 {
-		max-width: 950px;
-	}
-}
