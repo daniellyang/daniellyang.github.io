@@ -32,10 +32,10 @@ h2 {
 }
 
 h3 {
-	font-family: 'Roboto', sans-serif;
-	font-weight: bold;
-	font-size: 30px;
+	font-family: 'Spectral', sans-serif;
+	font-size: 40px;
 	color: #000000;
+	line-height: 1.2;
 }
 
 p {
@@ -215,6 +215,7 @@ mark {
 }
 
 .text-work-right {
+	margin-top: 5px;
 	padding: 20px;
 	box-sizing: border-box;
 	flex-basis: 70%
