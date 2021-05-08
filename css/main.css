@@ -198,8 +198,12 @@ mark {
 /*-------- Case studies --------*/
 
 .hero {
+	display: block;
 	margin-top: 50px;
 	width: 100%;
+	max-width: 1440px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .text-title-work {
