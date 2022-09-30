@@ -20,22 +20,23 @@ html {
 }
 
 h1 {
-	font-family: 'Spectral', serif;
-	font-size: 80px;
+	font-family: 'DM Serif Text', serif;
+	font-size: 72px;
 	color: #000000;
+	font-style: italic;
 }
 
 h2 {
-	font-family: 'Spectral', serif;
+	font-family: 'DM Serif Text', serif;
 	font-size: 50px;
 	color: #000000;
+
 }
 
 h3 {
-	font-family: 'Spectral', sans-serif;
+	font-family: 'DM Serif Text', serif;
 	font-size: 40px;
 	color: #000000;
-	line-height: 1.2;
 }
 
 p {
@@ -226,7 +227,7 @@ mark {
 }
 
 .text-block {
-	margin-top: 130px;
+	margin-top: 80px;
 }
 
 .inline-text-block {
